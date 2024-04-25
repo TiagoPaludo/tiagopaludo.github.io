@@ -1,14 +1,13 @@
-header{
+#header{
     background-color: aqua;
 }
 
-#menu{
-    list-style-type: none;
-}
+
 main{
     display: flex;
     flex-direction: column;
 }
+
 #menu {
     position: absolute;
     background-color: #ffffff;
@@ -24,12 +23,3 @@ main{
     width: 100%;
     background: url(images/cover-cake.jpg) center center/cover;
     position: relative;
-section{
-    display: flex;
-    flex-direction: column;
-    margin: 5 10 30 5;
-}
-div{
-    margin: 5 10 30 5;
-    line-height: 2px;
-}

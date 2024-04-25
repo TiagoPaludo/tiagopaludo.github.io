@@ -1,23 +1,3 @@
-#header{
-    background-color: aqua;
-}
-
-
-main{
-    display: flex;
-    flex-direction: column;
-}
-
-#menu {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-}
 #cover {
     height: 600px;
     width: 100%;
@@ -25,15 +5,67 @@ main{
     position: relative;
     z-index: -1;
 }
-#cakes>div{
-    width: 700px;
-    height: 150px;
-    display: flexbox;
-    margin: 5px orange;
-    color: aqua;
+section#cakes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
     background-color: black;
+    margin: 3px;
+}
+section#sweets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: black;
+    margin: 3px;
+}
+section#newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: black;
+    margin: 3px;
+}
+div#birthday-cake{
     
+    width: 700px;
+    height: 200px;
+    background-color: brown;
+    margin: 15px;
+    text-align: center;
 }
-#cakes{
-    padding: 10px 10px;
+div#wedding-cake{
+    
+    width: 700px;
+    height: 200px;
+    background-color: brown;
+    margin: 15px;
+    text-align: center;
 }
+div#other-ocasions-cake{
+    
+    width: 700px;
+    height: 200px;
+    background-color: brown;
+    margin: 15px;
+    text-align: center;
+}
+div#all-ocasions-sweets{
+    width: auto;
+    height: 200px;
+    background-color: brown;
+    text-align: center;  
+}
+div#daily-newsletter{
+    width: auto;
+    height: 200px;
+    background-color: brown;
+    text-align: center;
+}
+hr#break{
+   border: 5px; 
+}
+    

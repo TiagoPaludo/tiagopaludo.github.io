@@ -1,11 +1,15 @@
 #menu{
     list-style-type: none;
 }
-
 main{
     display: flex;
     flex-direction: column;
 }
+#cover {
+    height: 600px;
+    width: 100%;
+    background: url(images/cover-cake.jpg) center center/cover;
+    position: relative;
 section{
     display: flex;
     flex-direction: column;

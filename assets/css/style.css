@@ -1,7 +1,7 @@
 #cover {
     height: 600px;
     width: 100%;
-    background: url(images/cover-cake.jpg) center center/cover;
+    background-image: url(images/cover-cake.jpg) center center/cover;
     position: relative;
     z-index: -1;
 }
@@ -67,5 +67,16 @@ div#daily-newsletter{
 }
 hr#break{
    border: 5px; 
+}
+#navigation{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    border-style: solid;
+    background-color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border-width: 2px;
 }
     

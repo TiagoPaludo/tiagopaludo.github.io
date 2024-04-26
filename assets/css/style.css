@@ -1,11 +1,10 @@
-#cover {
-    height: 600px;
-    width: 100%;
+#background {
     background-image: url(images/cover-cake.jpg) center center/cover;
-    position: relative;
-    z-index: -1;
+    height: 100vh;
+    
 }
-section#cakes{
+
+section#cakes {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +12,8 @@ section#cakes{
     background-color: black;
     margin: 3px;
 }
-section#sweets{
+
+section#sweets {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,8 @@ section#sweets{
     background-color: black;
     margin: 3px;
 }
-section#newsletter{
+
+section#newsletter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,46 +30,53 @@ section#newsletter{
     background-color: black;
     margin: 3px;
 }
-div#birthday-cake{
-    
+
+div#birthday-cake {
+
     width: 700px;
     height: 200px;
     background-color: brown;
     margin: 15px;
     text-align: center;
 }
-div#wedding-cake{
-    
+
+div#wedding-cake {
+
     width: 700px;
     height: 200px;
     background-color: brown;
     margin: 15px;
     text-align: center;
 }
-div#other-ocasions-cake{
-    
+
+div#other-ocasions-cake {
+
     width: 700px;
     height: 200px;
     background-color: brown;
     margin: 15px;
     text-align: center;
 }
-div#all-ocasions-sweets{
+
+div#all-ocasions-sweets {
     width: auto;
     height: 200px;
     background-color: brown;
-    text-align: center;  
+    text-align: center;
 }
-div#daily-newsletter{
+
+div#daily-newsletter {
     width: auto;
     height: 200px;
     background-color: brown;
     text-align: center;
 }
-hr#break{
-   border: 5px; 
+
+hr#break {
+    border: 5px;
 }
-#navigation{
+
+#navigation {
     margin: auto;
     width: 80%;
     height: auto;
@@ -79,4 +87,3 @@ hr#break{
     font-family: Arial, Helvetica, sans-serif;
     border-width: 2px;
 }
-    
